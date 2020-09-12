@@ -1,0 +1,45 @@
+main {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: auto;
+}
+
+form input {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.page {
+  display: none;
+}
+
+.pages-nav {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-item {
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.page-active {
+  color: white;
+  background-color: blue;
+}
+
+.page-buttons {
+  display: flex;
+  justify-content: space-around;
+}
